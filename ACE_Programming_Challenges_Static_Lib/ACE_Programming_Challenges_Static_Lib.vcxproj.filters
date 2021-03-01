@@ -13,34 +13,10 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Header Files\Calculator">
-      <UniqueIdentifier>{b27a0550-2a0f-410e-818f-5fa866af99e0}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\GenericProgrammingChallenge">
-      <UniqueIdentifier>{42aa899d-29cd-48cc-a203-b5425c705644}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="pch.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Calculator.h">
-      <Filter>Header Files\Calculator</Filter>
-    </ClInclude>
-    <ClInclude Include="CFibonacciOption.h">
-      <Filter>Header Files\GenericProgrammingChallenge</Filter>
-    </ClInclude>
-    <ClInclude Include="CMenu.h">
-      <Filter>Header Files\GenericProgrammingChallenge</Filter>
-    </ClInclude>
-    <ClInclude Include="CMenuImplementation.h">
-      <Filter>Header Files\GenericProgrammingChallenge</Filter>
-    </ClInclude>
-    <ClInclude Include="CMenuOption.h">
-      <Filter>Header Files\GenericProgrammingChallenge</Filter>
     </ClInclude>
     <ClInclude Include="Include\Calculator.h">
       <Filter>Header Files</Filter>
