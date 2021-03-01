@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ACE_Programming_Challenges", "ACE_GTest_Exercise\ACE_GTest_Exercise.vcxproj", "{5E87BEE3-E4C9-41C9-883E-DA41168822F0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5BA177AC-D1C2-408C-B1E2-84E789631839} = {5BA177AC-D1C2-408C-B1E2-84E789631839}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "unittest_ProgrammingChallenges", "unittest_ProgrammingChallenges\unittest_ProgrammingChallenges.vcxproj", "{A0E33216-5911-4DED-A0E6-B29A1370CC6C}"
 EndProject
