@@ -1,8 +1,7 @@
 Debug/
 x64/
 Release/
-*/Debug/
-*/Release/
+Build/
 */x64/
 .vs/
 */Intermediate/
