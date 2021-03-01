@@ -1,3 +1,4 @@
+#include "pch.h"
 #include "CFibonacciOption.h"
 #include <iostream>
 

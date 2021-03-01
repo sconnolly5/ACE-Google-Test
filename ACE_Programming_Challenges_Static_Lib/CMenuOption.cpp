@@ -1,5 +1,7 @@
+#include "pch.h"
 #include "CMenuOption.h"
 #include "CMenuImplementation.h"
+#include <string>
 
 using namespace std;
 
