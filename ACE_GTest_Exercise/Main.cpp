@@ -2,7 +2,7 @@
 #include <vector>
 #include "CMenu.h"
 #include "CMenuOption.h"
-#include "CFibonacciOption.h";
+#include "CFibonacciOption.h"
 
 using namespace std;
 
