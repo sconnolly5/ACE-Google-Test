@@ -1,7 +1,10 @@
 #include <gtest/gtest.h>
+#include <gmock/gmock.h>
 #include <Calculator.h>
 
 TEST(CalculatorTest, TwoNums)
 {
-	ASSERT_EQ(4, Add(2, 2));
+	auto calc = std::make_unique<CCalculator>();
+	ASSERT_EQ(4, calc->Add(2, 2));
 }
+

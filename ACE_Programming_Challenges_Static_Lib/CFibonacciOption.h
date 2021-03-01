@@ -11,9 +11,9 @@ public:
 	// Inherited via CMenuImplementation
 	virtual void Run() override;
 
+	void InitialiseFibonacciSequence();
 private:
 	int LoopForUserInput();
-	void InitialiseFibonacciSequence();
 	void OutputSequence();
 private:
 	/// <summary>
@@ -21,9 +21,10 @@ private:
 	/// </summary>
 	int m_NumFibonacciElements;
 
+public:
 	/// <summary>
 	/// This is the sequence of numbers that currently exist within the sequence
 	/// </summary>
-	std::vector<int> m_Sequence; 
+	std::vector<int> m_Sequence;
 };
 

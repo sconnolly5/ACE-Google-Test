@@ -153,6 +153,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CalculatorTests.cpp" />
+    <ClCompile Include="FibonacciTests.cpp" />
     <ClCompile Include="unittest_ProgrammingChallenges.cpp" />
   </ItemGroup>
   <ItemGroup>

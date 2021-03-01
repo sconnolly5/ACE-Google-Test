@@ -1,7 +1,11 @@
 #include "pch.h"
 #include "Calculator.h"
 
-int Add(int a, int b)
+CCalculator::CCalculator()
+{
+}
+
+int CCalculator::Add(int a, int b)
 {
     return a + b;
 }

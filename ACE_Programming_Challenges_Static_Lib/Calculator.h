@@ -1,3 +1,8 @@
 #pragma once
 
-int Add(int a, int b);
+class CCalculator
+{
+	CCalculator();
+public:
+	virtual int Add(int a, int b);
+};
