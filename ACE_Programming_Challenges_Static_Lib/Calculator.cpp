@@ -1,8 +1,13 @@
 #include "pch.h"
 #include "Calculator.h"
 
-CCalculator::CCalculator()
+//CCalculator::CCalculator()
+//{
+//}
+
+void CCalculator::Run()
 {
+    Add(0, 1);
 }
 
 int CCalculator::Add(int a, int b)
