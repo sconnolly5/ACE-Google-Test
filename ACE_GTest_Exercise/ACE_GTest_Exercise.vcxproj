@@ -148,6 +148,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CCalculator.cpp" />
     <ClCompile Include="CFibonacciOption.cpp" />
     <ClCompile Include="CMenu.cpp" />
     <ClCompile Include="CMenuImplementation.cpp" />
@@ -155,6 +156,7 @@
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CCalculator.h" />
     <ClInclude Include="CFibonacciOption.h" />
     <ClInclude Include="CMenu.h" />
     <ClInclude Include="CMenuImplementation.h" />

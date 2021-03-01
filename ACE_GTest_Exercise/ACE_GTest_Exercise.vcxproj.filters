@@ -13,39 +13,57 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Calculator">
+      <UniqueIdentifier>{8a4f5b69-48b7-4e7c-9cc1-f80ed14627fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Calculator">
+      <UniqueIdentifier>{64e49712-0ae8-4c5b-91d5-887bd457bd51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GenericProgrammingChallenge">
+      <UniqueIdentifier>{5c1e3f5f-db58-454c-b7c4-37519bd0de33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GenericProgrammingChallenge">
+      <UniqueIdentifier>{ba3e180d-2981-46de-95fe-8b8a2121e0eb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CMenu.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="CMenuOption.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="CMenuImplementation.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="CCalculator.cpp">
+      <Filter>Source Files\Calculator</Filter>
     </ClCompile>
     <ClCompile Include="CFibonacciOption.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\GenericProgrammingChallenge</Filter>
+    </ClCompile>
+    <ClCompile Include="CMenu.cpp">
+      <Filter>Source Files\GenericProgrammingChallenge</Filter>
+    </ClCompile>
+    <ClCompile Include="CMenuImplementation.cpp">
+      <Filter>Source Files\GenericProgrammingChallenge</Filter>
+    </ClCompile>
+    <ClCompile Include="CMenuOption.cpp">
+      <Filter>Source Files\GenericProgrammingChallenge</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CMenu.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CMenuOption.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CMenuImplementation.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CFibonacciOption.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Main.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCalculator.h">
+      <Filter>Header Files\Calculator</Filter>
+    </ClInclude>
+    <ClInclude Include="CFibonacciOption.h">
+      <Filter>Header Files\GenericProgrammingChallenge</Filter>
+    </ClInclude>
+    <ClInclude Include="CMenu.h">
+      <Filter>Header Files\GenericProgrammingChallenge</Filter>
+    </ClInclude>
+    <ClInclude Include="CMenuImplementation.h">
+      <Filter>Header Files\GenericProgrammingChallenge</Filter>
+    </ClInclude>
+    <ClInclude Include="CMenuOption.h">
+      <Filter>Header Files\GenericProgrammingChallenge</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
