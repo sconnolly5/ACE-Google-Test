@@ -19,12 +19,6 @@
     <Filter Include="Header Files\GenericProgrammingChallenge">
       <UniqueIdentifier>{42aa899d-29cd-48cc-a203-b5425c705644}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Calculator">
-      <UniqueIdentifier>{e67a7a17-5196-4f79-8ba4-878005a0567a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\GenericProgrammingChallenge">
-      <UniqueIdentifier>{92b51b93-cee7-43d2-93c0-4bd97150302d}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -48,28 +42,49 @@
     <ClInclude Include="CMenuOption.h">
       <Filter>Header Files\GenericProgrammingChallenge</Filter>
     </ClInclude>
+    <ClInclude Include="Include\Calculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\CFibonacciOption.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\CMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\CMenuImplementation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\CMenuOption.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ACE_Programming_Challenges_Static_Lib.cpp">
+    <ClCompile Include="Source\ACE_Programming_Challenges_Static_Lib.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="pch.cpp">
+    <ClCompile Include="Source\Calculator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CFibonacciOption.cpp">
-      <Filter>Source Files\GenericProgrammingChallenge</Filter>
+    <ClCompile Include="Source\CFibonacciOption.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CMenu.cpp">
-      <Filter>Source Files\GenericProgrammingChallenge</Filter>
+    <ClCompile Include="Source\CMenu.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CMenuImplementation.cpp">
-      <Filter>Source Files\GenericProgrammingChallenge</Filter>
+    <ClCompile Include="Source\CMenuImplementation.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CMenuOption.cpp">
-      <Filter>Source Files\GenericProgrammingChallenge</Filter>
+    <ClCompile Include="Source\CMenuOption.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Calculator.cpp">
-      <Filter>Source Files\Calculator</Filter>
+    <ClCompile Include="Source\pch.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -89,6 +89,7 @@
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>..\ACE_Programming_Challenges_Static_Lib;.\Resources\GoogleTest\Includes;$(IncludePath)</IncludePath>
     <LibraryPath>.\Resources\GoogleTest\Lib;$(LibraryPath)</LibraryPath>
+    <IntDir>$(ProjectDir)Build\$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

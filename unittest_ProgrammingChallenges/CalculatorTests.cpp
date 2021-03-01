@@ -1,6 +1,7 @@
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
 #include <Calculator.h>
+#include <memory.h>
 
 using ::testing::_;
 using ::testing::AnyNumber;

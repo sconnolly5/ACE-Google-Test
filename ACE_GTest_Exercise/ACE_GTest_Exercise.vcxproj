@@ -90,6 +90,8 @@
     <LinkIncremental>false</LinkIncremental>
     <LibraryPath>C:\Users\Sam\source\repos\ACE_GTest_Exercise\ACE_Programming_Challenges_Static_Lib\Build\x64\Release;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
     <IncludePath>..\ACE_Programming_Challenges_Static_Lib;$(IncludePath)</IncludePath>
+    <OutDir>$(ProjectDir)Build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)Build\$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
